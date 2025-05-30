@@ -89,6 +89,6 @@ http://localhost/php_native_school
 
 ## 👤 Identitas Pembuat
 
-| Nama           | NIM       | Kelas |
-| -------------- | --------- | ----- |
-| Rafi Ibnugroho | 123456789 | TI-XX |
+|              Nama             |    Kelas     |   No   |
+| ----------------------------- | ------------ | ------ |
+| **Rafi Ibnugroho Wicaksono**  | **XI RPL 2** | **27** |
