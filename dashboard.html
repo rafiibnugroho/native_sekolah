@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!--Menghilangkan Scroll Kanan kiri-->
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;  }
+            .container {
+                max-width: 100%;
+                overflow: hidden;  }
+                </style>
+    <!--Menghilangkan Scroll Kanan kiri-->
+
+        <!-- Fonts Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Fonts Google -->
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Feather Icons -->
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Link CSS -->
+
+</head>
+<body>
+    <!-- Dashboard start -->
+    <nav class="navbar">
+        <div class="navbar-nav">
+            <img src="aset/logo.png" class="logo-smk">
+            <a href="siswa.php">Siswa</a>
+            <a href="kelas.php">Kelas</a>
+            <a href="guru2.php">Guru</a>
+            <a href="mapel.php">Mapel</a>
+            <a class="logout"
+            href="login.html"><i data-feather="log-out"></i></a>
+        </div>
+        <script class="log-out" src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    </nav>
+    <!-- Dashboard end -->
+
+    <!-- Hero section start -->
+    <section class="hero" id="home">
+        <div class="content">
+            <h1 class="titleatas">Selamat Datang di Sistem Informasi Sekolah</h1> <!-- Perbaiki penutupan tag -->
+            <h1 class="ha1"><span>SMKN 1 BANTUL</span></h1>
+            <p>Berikut adalah beberapa sistem informasi <span> </span></p> <!-- Perbaiki penutupan span -->
+            <div class="button-group">
+                <a href="siswa.php" class="custom-button">Siswa</a>
+                <a href="kelas.php" class="custom-button">Kelas</a>
+                <a href="guru2.php" class="custom-button">Guru</a>
+                <a href="mapel.php" class="custom-button">Mapel</a>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+<!-- Footer Start-->
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/rapzzzpiii/" target="_blank"><i data-feather="instagram"></i></a>
+        <a href="https://x.com/Rafiibnugroho" target="_blank"><i data-feather="twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61564039137740&mibextid=ZbWKwL" target="_blank"><i data-feather="facebook"></i></a>
+    </div>
+    <div class="credit">
+        <p>Created By <a href="">Rafi Ibnugroho Wicaksono</a> | &Copy; 2024</p>
+    </div>
+    <!-- Footer End-->
+
+        <!-- Feather Icons script -->
+        <script>
+            feather.replace();
+        </script>
+        <!-- Feather Icons script -->
+</body>
+</html>
